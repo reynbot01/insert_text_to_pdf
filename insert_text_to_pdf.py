@@ -45,5 +45,4 @@ def print_form_field_names(pdf_path):
 # Example usage
 pdf_path = "C:/Users/bwdgi/OneDrive/Desktop/insert_text_to_pdf/sample.pdf"
 print_form_field_names(pdf_path)
-pdf_path = "C:/Users/bwdgi/OneDrive/Desktop/insert_text_to_pdf/sample.pdf"
 print_form_field_names(pdf_path)
