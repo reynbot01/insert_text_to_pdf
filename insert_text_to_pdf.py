@@ -14,9 +14,6 @@ def print_form_field_names(pdf_path):
             
             print(f"{counter},Field Name: {field.field_name}, Field Type: {field.field_type_string}, Field Value: {field.field_value}")
             counter += 1
-# # Example usage
-pdf_path = "C:/Users/bwdgi/OneDrive/Desktop/insert_text_to_pdf/sample.pdf"
-print_form_field_names(pdf_path)
 
 def print_form_field_names(pdf_path):
     """
@@ -46,5 +43,7 @@ def print_form_field_names(pdf_path):
     print(f"Updated PDF saved to {new_pdf_path}")
 
 # Example usage
+pdf_path = "C:/Users/bwdgi/OneDrive/Desktop/insert_text_to_pdf/sample.pdf"
+print_form_field_names(pdf_path)
 pdf_path = "C:/Users/bwdgi/OneDrive/Desktop/insert_text_to_pdf/sample.pdf"
 print_form_field_names(pdf_path)
